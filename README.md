@@ -7,7 +7,8 @@ A Python version 3.6 or higher installed on the Raspberry Pi.
 An API key from OpenAI. Note that as of September 2021, the usage of the API is not free and you need to comply with OpenAI's use-case policy.
 
 ## Instructions
-Check your Python version
+
+### 1. Check your Python version
 
 Open a terminal window and type:
 
@@ -16,7 +17,7 @@ Copy code
 python3 --version
 If your version is below 3.6, you need to upgrade Python.
 
-Install pip
+### 2. Install pip
 
 Pip is a package manager for Python. You can use it to install the necessary libraries. To install pip, open a terminal window and type:
 
@@ -24,7 +25,8 @@ sql
 Copy code
 sudo apt update
 sudo apt install python3-pip
-Set up a virtual environment (Optional, but recommended)
+
+### 3. Set up a virtual environment (Optional, but recommended)
 
 A virtual environment is a way to keep the dependencies for your project separate from other projects. To create a virtual environment, first install the virtualenv package:
 
@@ -43,15 +45,16 @@ Copy code
 source venv/bin/activate
 Install the OpenAI Python client
 
-Install the OpenAI Python client using pip. This will allow you to make requests to the GPT-3 API:
+### 4. Install the OpenAI Python client using pip. This will allow you to make requests to the GPT-3 API:
 
 Copy code
 pip3 install openai
-Get your API Key
+
+### 5. Get your API Key
 
 To use the GPT-3 API, you need an API key from OpenAI. You can get this from the OpenAI website.
 
-Use the API
+### 6. Use the API
 
 Now you're ready to use the GPT-3 API! You can use the following Python code as a starting point:
 
